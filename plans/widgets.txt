@@ -1,0 +1,47 @@
+    Padding(
+            padding: const EdgeInsets.all(5.0),
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      primary: const Color.fromARGB(255, 165, 165, 165),
+                      shape: CircleBorder(),
+                      padding: const EdgeInsets.all(25)),
+                  onPressed: () {},
+                  child: Text(
+                    'AC',
+                    style: TextStyle(color: Colors.black,fontSize: 24),
+                  ),
+                ), SizedBox(width:25 ,),
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      primary: Color.fromARGB(255, 165, 165, 165),
+                      shape: CircleBorder(),
+                      padding: const EdgeInsets.all(25)),
+                  onPressed: () {},
+                  child: Text('+/-', style: TextStyle(color: Colors.black,fontSize: 24)),
+                ),
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      primary: Color.fromARGB(255, 165, 165, 165),
+                      shape: CircleBorder(),
+                      padding: const EdgeInsets.all(25)),
+                  onPressed: () {},
+                  child: Text(
+                    '%',
+                    style: TextStyle(color: Colors.black ,fontSize: 24),
+                  ),
+                ),
+                
+                ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      primary: Color.fromARGB(255, 255, 159, 5),
+                      shape: CircleBorder(),
+                      padding: const EdgeInsets.all(25)),
+                  onPressed: () {},
+                  child: Text('÷', style: TextStyle(fontSize: 24)),
+                ),
+              ],
+            ),
+          ),
